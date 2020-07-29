@@ -351,8 +351,8 @@ if(UNIX)
         COMMENT "Building source tarball '${PHYSFS_TARBALL}'..."
     )
     add_custom_target(
-        uninstall
-        "${CMAKE_CURRENT_SOURCE_DIR}/extras/uninstall.sh"
+        physfs-uninstall
+        "${CMAKE_CURRENT_SOURCE_DIR}/extras/physfs-uninstall.sh"
         WORKING_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}"
         COMMENT "Uninstall the project..."
     )
